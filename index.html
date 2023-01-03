@@ -30,14 +30,136 @@
                 <ul>
                     <li><a href="#sobre">Sobre</a></li>
                     <li><a href="#produtos">Produtos</a></li>
-                    <li><a href="#preço">Preço</a></li>
-                    <li><a href="Qualidade">Qualidade</a></li>
+                    <li><a href="#preco">Preço</a></li>
+                    <li><a href="#qualidade">Qualidade</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
     <h1 class="introducao">Novos valores e<br> propriedades de CSS</h1>
+
+    <section class="sobre" id="sobre">
+        <div class="sobre-info">
+            <h1>Sobre</h1>
+            <p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão das condições inegavelmente apropriadas objetivos.</p>
+            <p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão das condições inegavelmente apropriadas objetivos</p>
+        </div>
+        <!--Estou criando uma div para as imagens pois o flexbox trabalha melhor com as div do que em cima das imagens-->
+        <div class="sobre-img">
+            <img src="imagens/sobre1.jpg" alt="uma mulher olhando a tela do celular">
+        </div>
+        <div class="sobre-img">
+            <img src="imagens/sobre2.jpg" alt="uma quadro redondo sendo pintado">
+        </div>
+    </section>
+
+    <section class="produtos" id="produtos">
+        <h1>Produtos</h1>
+        <div class="produtos-container">
+            <div class="produtos-itens purple">
+                <h2>Purple</h2>
+                <img src="imagens/produtos1.jpg" alt="uma mesa de jantar na cor roxa">
+            </div>
+            <div class="produtos-itens pink">
+                <h2>Pink</h2>
+                <img src="imagens/produtos2.jpg" alt="uma mesa com kits de acampar">
+            </div>
+            <div class="produtos-itens blue">
+                <h2>blue</h2>
+                <img src="imagens/produtos3.jpg" alt="uma mesa com uma flor">
+            </div>
+        </div>
+    </section>
+
+    <section class="preco" id="preco">
+        <div class="preco-item">
+            <h2>Cobre</h2>
+            <!-- A TAG SUP:sobrescrito é utilizado escrever um texto com letras menores e com o alinhamento acima das que do resto do conteúdo-->
+            <span><sup>R$</sup> 19</span>
+        
+            <ul>
+                <li>Planos Ilimitados</li>
+                <li>Acesso Restrito</li>
+                <li>Conteúdo Secreto</li>
+                <li>Suporte 24h</li>
+            </ul>
+            <a href="#">Comprar</a>
+        </div>
+
+        <div class="preco-item">
+            <h2>Prata</h2>
+            <span><sup>R$</sup>39</span>
+
+            <ul>
+                <li>Planos Ilimitados</li>
+                <li>Acesso Restrito</li>
+                <li>Conteúdo Secreto</li>
+                <li>Suporte 24h</li>
+                <li>Compra Exclusiva</li>
+            </ul>
+            <a href="#">Comprar</a>
+        </div>
+
+        <div class="preco-item">
+            <h2>Ouro</h2>
+            <span><sup>R$</sup>79</span>
+        
+            <ul>
+                <li>Planos Ilimitados</li>
+                <li>Acesso Restrito</li>
+                <li>Conteúdo Secreto</li>
+                <li>Suporte 24h</li>
+                <li>Compra Exclusiva</li>
+                <li>Download dos Itens</li>
+            </ul>
+            <a href="#">Comprar</a>
+        </div>
+    </section>
+
+    <section class="qualidade" id="qualidade">
+        <div class="qualidade-item">
+            <h2>Inteligente</h2>
+            <p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão</p>
+        </div>
+
+        <div class="qualidade-item">
+            <h2>Compacto</h2>
+            <p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão das condições inegavelmente</p>
+        </div>
+
+        <div class="qualidade-item">
+            <h2>Transparente</h2>
+            <p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão</p>
+        </div>
+
+        <div class="qualidade-item">
+            <h2>Opaco</h2>
+            <p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão das condições inegavelmente</p>
+        </div>
+
+        <div class="qualidade-item">
+            <h2>Sustentável</h2>
+            <p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão</p>
+        </div>
+    </section>
+
+    <section class="newsletter">
+        <div class="newsletter-info">
+            <h1>Newsletter</h1>
+            <p>assine e fique por dentro das novidades</p>
+
+            <form class="newsletter-form">
+                <input type="text" placeholder="Seu e-mail">
+                <button type="submit"> Assinar </button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>FlexBlog © Todos os direitos reservados.</p>
+
+    </footer>
 
     
 </body>
