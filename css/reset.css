@@ -1,0 +1,24 @@
+/*cada página ou trabalho no css tem seu próprio reset css*/
+body, h1,h2,p,ul,li,a{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family:"nunito",Arial, Helvetica, sans-serif;
+	color: #222222;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	display: block;
+	max-width: 100%;
+}
+/* o * serve para você se referir a todas as tags*/
+*{
+	box-sizing: border-box;
+}
+/*box-sizing: border-box com essa função não soma os valores do padding e afins para atribuir no item ele apenas atribui sem somar*/
