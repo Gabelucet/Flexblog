@@ -25,3 +25,5 @@ Flex-grow / Flex-basis / Flex-shrink / Flex / Order / Align-self.
 <h2 align="center">Layout Mobile</h2>
 <p align="center">O site todo é responsivo, graças ao FLEXBOX, com isso, você pode está olhando como o site se comporta na tela de um celular</p>
   <div align="center">
+  <img src="assets/layout_cel.gif" height ="374px">
+  </div>
