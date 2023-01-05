@@ -15,18 +15,19 @@ O site foi construído para ser uma página de vendas, aonde mostra ao cliente o
 Display / Flex-direction / Flex-wrap / Flex-flow / Justify-content / Align-items / Align-content;
   <dt>Flex Item</dt>
 Flex-grow / Flex-basis / Flex-shrink / Flex / Order / Align-self.
-<dl>
+</dl>
 
-<h2 align="center"> Layout web</h2>
-<p align="center">Essa é a versão web do site</p>
-<div align="center">
-  <img src="assets/layout_web.gif" height ="374px">
-</div>
 <h2 align="center">Layout Mobile</h2>
 <p align="center">O site todo é responsivo, graças ao FLEXBOX, com isso, você pode está olhando como o site se comporta na tela de um celular</p>
   <div align="center">
   <img src="assets/layout_cel.gif" height ="374px">
   </div>
+  
+<h2 align="center"> Layout web</h2>
+<p align="center">Essa é a versão web do site</p>
+<div align="center">
+  <img src="assets/layout_web.gif" height ="374px">
+</div>
 
   <div align="center">
   <h2> Tecnologias utilizadas</h2>
