@@ -17,4 +17,8 @@ Display / Flex-direction / Flex-wrap / Flex-flow / Justify-content / Align-items
 Flex-grow / Flex-basis / Flex-shrink / Flex / Order / Align-self.
 <dl>
 
-  <h2 align="center"> Layout web</h2>
+<h2 align="center"> Layout web</h2>
+<p align="center">Essa é a versão web do site</p>
+<div align="center">
+  <img src="assets/layout_web.gif" height ="374px">
+</div>
